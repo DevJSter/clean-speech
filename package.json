@@ -1,16 +1,16 @@
 {
-  "name": "@devjster/clean-speech-hindi",
-  "version": "1.0.0",
-  "description": "Small Utility for checking profanity (hindi and English).It supports functionality like detecting bad words and cleaning them.",
+  "name": "@devshubham/clean-speech-hindi",
+  "version": "1.0.1",
+  "description": "Small Utility node package manager for checking profanity (hindi and English).It supports functionality like detecting bad words , adding if any and also to remove them.",
   "main": "dist/src/index.js",
   "scripts": {
     "test": "mocha tests/**/*.js",
     "start": "node ./dist/src/index.js"
   },
   "keywords": [
-    "profanity-hindi-blovcker",
+    "profanity-hindi-blocker",
     "bad-words-blocker",
-    "hindi-bad-words",
+    "hindi-bad-words-blocker",
     "bad-words-filter",
     "Adding-removing-bad-words"
   ],

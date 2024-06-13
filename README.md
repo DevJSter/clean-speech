@@ -9,7 +9,7 @@ Technologies used: Node.js, TypeScript
 Run the following command:
 
 ```sh
-npm install clean-speech
+npm install @devshubham/clean-speech-hindi
 ```
 
 ### Requirements
@@ -18,22 +18,22 @@ It internally uses lodash, which will be automatically installed.
 ### Code Example
 
 ```typescript
-import profanity from 'clean-speech';
+import profanity from '@devshubham/clean-speech-hindi';
 
 const maskBadWords = () => {
-  const message = "hi asshole you are a bitch chutiya";
+  const message = "hi asshole you are a bitch chutiya... ";
   const cleaned = profanity.maskBadWords(message);
-  console.log(cleaned); // hi ******* you are a ***** *******
+  console.log(cleaned); // hi ******* you are a ***** ******* ....
 }
 
 const isMessageDirty = () => {
   const message = "hi asshole you are a bitch chutiya";
   const isDirty = profanity.isMessageDirty(message);
-  console.log(isDirty); // prints true
+  console.log(isDirty); // true
 
   const cleanMessage = "hi there. How are you";
   const isClean = profanity.isMessageDirty(cleanMessage);
-  console.log(isClean); // prints false
+  console.log(isClean); // false
 }
 
 const addWords = () => {
@@ -47,7 +47,7 @@ const addWords = () => {
 const removeWords = () => {
   const wordsToRemove = ["this", "dumbness"];
   const updatedDictionary = profanity.removeWords(wordsToRemove); 
-  // this will remove the words from the dictionary of bad words.
+  // This will remove the words from the dictionary of bad words.
   // This function optionally returns the entire dictionary of bad words.
   console.log(updatedDictionary);
 }
