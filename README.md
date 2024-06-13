@@ -1,4 +1,4 @@
-# clean-speech
+# clean-speech-hindi
 
 ### Author: Shubham Tiwari
 
