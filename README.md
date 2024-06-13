@@ -9,7 +9,7 @@ Technologies used: Node.js, TypeScript
 Run the following command:
 
 ```sh
-npm install profanity-hindi
+npm install clean-speech
 ```
 
 ### Requirements
@@ -18,7 +18,7 @@ It internally uses lodash, which will be automatically installed.
 ### Code Example
 
 ```typescript
-import profanity from 'profanity-hindi';
+import profanity from 'clean-speech';
 
 const maskBadWords = () => {
   const message = "hi asshole you are a bitch chutiya";

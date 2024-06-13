@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test/",
-    "start": "node dist/index.js"
+    "start": "node ./dist/index.js"
   },
   "keywords": [
     "profanity-hindi-blovcker",
@@ -17,14 +17,15 @@
   "author": "Shubham Tiwari",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/surajJha/profanity-hindi/issues"
+    "url": "https://github.com/devjster/clean-speech/issues"
   },
-  "homepage": "https://github.com/surajJha/profanity-hindi#readme",
+  "homepage": "https://github.com/devjster/clean-speech/#readme",
   "dependencies": {
     "lodash": "^4.17.2"
   },
   "devDependencies": {
     "@types/chai": "^4.3.16",
+    "@types/lodash": "^4.17.5",
     "@types/mocha": "^10.0.6",
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
