@@ -1,0 +1,32 @@
+{
+  "name": "clean-speech",
+  "version": "1.1.0",
+  "description": "Small Utility for checking profanity (hindi and English).It supports functionality like detecting bad words and cleaning them.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "profanity-hindi-blovcker",
+    "bad-words-blocker",
+    "hindi-bad-words",
+    "bad-words-filter",
+    "Adding-removing-bad-words"
+  ],
+  "author": "Shubham Tiwari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surajJha/profanity-hindi/issues"
+  },
+  "homepage": "https://github.com/surajJha/profanity-hindi#readme",
+  "dependencies": {
+    "lodash": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.6",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
