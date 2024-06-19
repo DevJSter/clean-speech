@@ -2,7 +2,9 @@
 
 ### Author: Shubham Tiwari
 
-This is a small Node.js module for dealing with profanity in English and Hindi. This module has functionalities for detecting bad words and cleaning them.
+This is a small Node.js module for dealing with profanity by removing , masking or adding new ones in the dictionaries in English ,  Hindi , german , Spanish , French and Italian. This module has functionalities for detecting bad words and cleaning them.
+
+
 Technologies used: Node.js, TypeScript
 
 ### Installation
