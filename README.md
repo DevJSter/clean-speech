@@ -55,13 +55,6 @@ const removeWords = () => {
 }
 ```
 
-### Unit Tests
-Run the following command:
-
-```sh
-npm test
-```
-
 ### Contributors
 Shubham Tiwari
 
