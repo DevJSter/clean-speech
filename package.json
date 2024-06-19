@@ -1,6 +1,6 @@
 {
   "name": "@devshubham/clean-speech-hindi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Small Utility node package manager for checking profanity (hindi and English).It supports functionality like detecting bad words , adding if any and also to remove them.",
   "main": "dist/src/index.js",
   "scripts": {

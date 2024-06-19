@@ -1,6 +1,10 @@
 import * as _ from 'lodash';
 import hindiBadWords from '../data/hindi-bad-words';
 import englishBadWords from '../data/english-bad-words';
+import frenchBadWords from '../data/french-bad-words';
+import germanBadWords from '../data/german-bad-words';
+import spanishBadWords from '../data/spanish-bad-words';
+import italianBadWords from '../data/italian-bad-words';
 
 interface BadWordsDictionary {
   [key: string]: number;
@@ -31,7 +35,7 @@ const profanity = {
       throw new Error("message passed to the function must be a string");
     }
     const messageWords = message.split(" ");
-    badWordsDictionary = _.merge(hindiBadWords, englishBadWords, userDefinedWords);
+    badWordsDictionary = _.merge(hindiBadWords, englishBadWords, frenchBadWords, germanBadWords, spanishBadWords, italianBadWords, userDefinedWords);
     badWordsDictionary = _.transform(badWordsDictionary, (result: BadWordsDictionary, val: number, key: string) => {
       result[key.toLowerCase()] = val;
     });

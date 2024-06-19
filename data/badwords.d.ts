@@ -6,4 +6,9 @@ declare module 'badWords' {
 
   export const englishBadWords: BadWordsDictionary;
   export const hindiBadWords: BadWordsDictionary;
+  export const frenchBadWords :BadWordsDictionary;
+  export const germanBadWords :BadWordsDictionary;
+  export const italianBadWords :BadWordsDictionary
+  export const spanishBadWords :BadWordsDictionary
+  
 }
